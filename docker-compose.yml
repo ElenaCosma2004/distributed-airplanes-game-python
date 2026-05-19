@@ -1,0 +1,8 @@
+services:
+  server:
+    build: .
+    container_name: avionase-server
+    ports:
+      - "8708:8708"
+    stdin_open: true
+    tty: true
